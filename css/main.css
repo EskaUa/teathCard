@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Roboto Light";
+  src: url("/fonts/Roboto/Roboto-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("/fonts/Roboto_Slab/RobotoSlab-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Slab", sans-serif;
+  margin: 0;
+}
+
+.btn {
+  color: #01b3e0;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 20px;
+  border: 2px solid #01c4e0;
+  padding: 10px 45px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+  background-image: linear-gradient(45deg, #c1f0f3 40%, #e5f2f3 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+.container .person {
+  margin-left: 50px;
+}
+.container .inf {
+  flex-direction: column;
+}
+.container .inf-title {
+  color: #7c6db0;
+  margin-top: 0;
+  font-size: 60px;
+}
+.container .inf-subtitle {
+  color: #fff;
+  background-color: #7f70b1;
+  font-size: 36px;
+  display: inline-block;
+  padding: 0 10px;
+  margin: 0;
+}
+.container .inf-text {
+  display: flex;
+  align-items: center;
+  margin: 70px 0;
+}
+.container .inf-text__desc {
+  max-width: 310px;
+  margin-left: 40px;
+  color: #000;
+  font-size: 22px;
+  font-family: "Roboto Light", sans-serif;
+}
+.container .inf-btns .btn-blue {
+  background-color: #01bee0;
+  color: #fff;
+  border: 2px solid transparent;
+  margin-right: 30px;
+}
